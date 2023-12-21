@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt-Doku</title>
+    <link rel="stylesheet" href="mp.css">
+    <link rel="stylesheet" href="mp.ts">
+</head>
+<body>
+    <header>
+        <h1>Projekt-Doku</h1>
+        <p>Entdecke die spannendsten Projekte unserer Teams.</p>
+    </header>
+
+    <main>
+        <section class="team-section" id="team1">
+            <h2>Team 1</h2>
+            <div class="team-content">
+                <p class="intro">Einleitung: Hier steht die Einleitung für das Projekt des Teams 1.</p>
+                <div class="media-gallery">
+                    <img src="bild1.jpg" alt="Bild 1">
+                    <img src="bild2.jpg" alt="Bild 2">
+                    <video controls>
+                        <source src="video.mp4" type="video/mp4">
+                        Ihr Browser unterstützt das Video-Format nicht.
+                    </video>
+                </div>
+                <button class="toggle-btn" onclick="toggleContent('team1Content')">Mehr Infos</button>
+                <div id="team1Content" class="hidden-content">
+                    Hier steht der interaktive und erweiterte Inhalt für Team 1.
+                </div>
+            </div>
+        </section>
+
+        <!-- Weitere Team-Abschnitte können hier hinzugefügt werden -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
